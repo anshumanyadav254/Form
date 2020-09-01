@@ -51,6 +51,7 @@ app.post("/register", async(req, res) => {
         }
 
         //insert into database
+        
         else {
             users.push({
                 name,
